@@ -25,7 +25,7 @@ function lyrics(){
                 document.getElementById('search_result').innerHTML += `<div>
                                                                         <h1> ${title} </h1>
                                                                         <h5> ${artist} </h5>
-                                                                        <a href="#lyrics"> <button style="background-color: green; color: white; border-radius: 10px" onClick="getLyrics(${i})">See lyrics</button> </a>
+                                                                        <a href="#lyrics"> <button style="background-image: linear-gradient(75deg, #ffad01, #fb7800); color: white; border-radius: 10px" onClick="getLyrics(${i})">See lyrics</button> </a>
                 </div>`;
                 if(i==7){
                     break;
