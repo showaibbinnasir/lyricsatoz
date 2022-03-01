@@ -1,0 +1,70 @@
+body{
+    background-color: #ffb900;
+}
+.background{
+    background-image: url(images/bg.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+}
+
+#search-box{
+    width: 350px;
+    height: 50px;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 22px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+    backdrop-filter: blur(5px);
+    border: none;
+    color: green;
+    
+}
+#search-btn{
+    height: 50px;
+    border-radius: 30px;
+    
+    background-color: green;
+    color: aliceblue;
+    font-size: 22px;
+    padding: 0px 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+
+    
+}
+
+#lyrics-section{
+    margin-top: 20px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    display: none;
+}
+#copyright{
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 480px) {
+    #search-box{
+        width: 250px;
+        font-size: 16px;
+        height: 35px;
+        margin-top:50px;
+    }
+    #search-btn{
+        font-size: 16px;
+        padding: 0px 10px;
+        height: 35px;
+    }
+    .background{
+        height: 250vh;
+    }
+}
+
+
+
